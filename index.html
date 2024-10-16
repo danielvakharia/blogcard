@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Card Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-yellow-400 border flex h-screen justify-center items-center">
+    <div class="card bg-white max-w-sm p-6 rounded-lg border border-black drop-shadow-3xl">
+        <img src="assets/images/illustration-article.svg" class="mx-auto w-full rounded-lg">
+        <h1 class="font-figtree font-extrabold bg-yellow-400 inline-block py-1 px-3 rounded-lg my-4">Learning</h1>
+        <h4 class="font-figtree font-medium text-sm">Published 21 Dec 2023</h4>
+        <h2 class="font-figtree font-extrabold text-2xl my-5">HTML & CSS foundations</h2>
+        <p class="font-figtree font-medium mb-5 text-gray-500 text-md">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        
+<!-- Ran into issue here. Width, height, margin classes had no effect. -->
+
+        <!-- <div class="flex items-center">
+            <img class="w-8 h-8" src="assets/images/image-avatar.webp" alt="">
+            <h3 class="ml-5 font-figtree font-extrabold">Greg Hooper</h3>
+        </div> -->
+
+<!-- Made custom styles 'avatar' and 'gregHooper' to get it to display how I want -->
+
+        <div class="flex items-center">
+            <img class="avatar" src="assets/images/image-avatar.webp" alt="">
+            <h3 class="gregHooper font-figtree font-extrabold">Greg Hooper</h3>
+        </div>
+    </div>
+</body>
+</html>
